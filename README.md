@@ -19,7 +19,7 @@ Il faut ensuite ajouter son utlisateur au groupe sudo, pour se faire:
 
 Ensuite il faut maintenant installer OCaml.
 
-* dans le même terminale, faire `exit`, on repasse en utilisateur normal.
+* dans le même terminal, faire `exit`, on repasse en utilisateur normal.
 Copier coller les commandes suivantes (ca va demander le mdp de l'utilisateur):
 
 ```bash
@@ -29,7 +29,7 @@ sudo apt install git ocaml opam
 ```
 
 
-* une fois terminer taper: `opam init`
+* une fois terminé taper: `opam init`
 Les dépendances vont s'installer, il se peut qu'il demande le mot de passe
 
 Ensuite faire `opam install ocaml graphics utop`
@@ -40,7 +40,7 @@ Ensuite faire `opam install ocaml graphics utop`
 * générer une clé SSH: `ssh-keygen`, laisser par défaut l'emplacement et éventuellement sépcifier un mdp
 
 * aller sur cri.epita.fr et ajouter sa clé SSH (pour la voir: `cat ~/.ssh/id_rsa.pub`
-* créer et editer le fichier ~/.ssh/config (emacs ou vim) et ajouter
+* créer et editer le fichier `~/.ssh/config` (emacs ou vim) et ajouter
 ```
 Host ssh.cri.epita.fr
     GSSAPIAuthentication yes
