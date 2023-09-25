@@ -32,8 +32,9 @@ sudo apt install git ocaml opam
 * une fois terminé taper: `opam init`
 Les dépendances vont s'installer, il se peut qu'il demande le mot de passe
 
-Ensuite faire `opam install ocaml graphics utop`
+* Ensuite faire `opam install ocaml graphics utop`
 
+* Rafrachir la configuration de opam en faisant `eval $(opam env)`
 
 ## Accéder à l'AFS
 
